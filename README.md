@@ -8,7 +8,7 @@ intelligence, semantic clustering, SXO, drift monitoring, e-commerce SEO,
 backlinks, and international SEO.
 
 Ported from [claude-seo](https://github.com/AgriciDaniel/claude-seo). The
-Python execution engine (54 scripts) is platform-agnostic Python 3.10+.
+Python execution engine (55 scripts) is platform-agnostic Python 3.10+.
 
 ## Quick Start
 
@@ -64,7 +64,7 @@ gemini-seo/
   rules/                             # 18 specialist analyses (was agents/)
     seo-technical.md                # Specialist focus + output format
     ...
-  scripts/                           # 54 Python scripts + runtime
+  scripts/                           # 55 Python scripts + runtime
     gemini-seo                       # Bash launcher (Python 3.10+ auto-detect)
     runtime.py                       # Managed venv + dependency runtime
     fetch_page.py, parse_html.py, ... # Execution engine
@@ -104,5 +104,17 @@ MIT. The FLOW framework prompts ship under CC BY 4.0 (see
 
 ## Credits
 
-Created by [@AgriciDaniel](https://github.com/AgriciDaniel). Ported to Google
-Gemini / Antigravity from [claude-seo](https://github.com/AgriciDaniel/claude-seo).
+This project is a conversion of
+[**claude-seo**](https://github.com/AgriciDaniel/claude-seo) (created and
+maintained by [@AgriciDaniel](https://github.com/AgriciDaniel), MIT License,
+Copyright (c) 2026 agricidaniel) into a Google Gemini / Antigravity-native
+skill. All SEO logic, sub-skill content, rules, and the Python execution
+engine (55 scripts) are inherited from the upstream project.
+
+v1.9.0 community contributions incorporated upstream: Lutfiya Miller
+(`seo-cluster`), Chris Muller (`seo-hreflang`), Florian Schmitz (`seo-sxo`),
+Dan Colta (`seo-drift`), and Matej Marjanovic (`seo-ecommerce`). See
+[CONTRIBUTORS.md](https://github.com/AgriciDaniel/claude-seo/blob/main/CONTRIBUTORS.md)
+upstream for details.
+
+Keep this attribution if you redistribute this fork.
