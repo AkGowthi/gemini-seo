@@ -70,7 +70,7 @@ def _root() -> Path:
 
 
 def _plugin_version(root: Path) -> str:
-    for manifest in (root / ".claude-plugin" / "plugin.json", root / "runtime-plugin.json"):
+    for manifest in (root / "plugin.json", root / "runtime-plugin.json"):
         try:
             value = json.loads(manifest.read_text(encoding="utf-8")).get("version")
             if isinstance(value, str):
@@ -98,7 +98,7 @@ def _requirements_hash(root: Path) -> str:
 def _is_plugin(root: Path) -> bool:
     if os.environ.get("GEMINI_SEO_DATA") or os.environ.get("GEMINI_SEO_ROOT"):
         return True
-    return (root / ".claude-plugin" / "plugin.json").is_file() and not (root / ".git").exists()
+    return (root / "plugin.json").is_file() and not (root / ".git").exists()
 
 
 def _configured_data_dir(raw: str) -> Path:

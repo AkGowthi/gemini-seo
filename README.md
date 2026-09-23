@@ -58,7 +58,7 @@ Keywords: `seo`, `ai-seo`, `antigravity`, `gemini`, `gemini-cli`,
 ```
 gemini-seo/
   GEMINI.md                          # Project rules (this repo)
-  .claude-plugin/plugin.json         # Antigravity discovery manifest
+  plugin.json                      # Antigravity discovery manifest (repo root)
   skills/                            # 25 sub-skills (auto-discovered)
     seo/                             # Main orchestrator
       SKILL.md
