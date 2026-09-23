@@ -1,6 +1,6 @@
 # Gemini SEO
 
-Comprehensive SEO analysis skill for Google Gemini / Antigravity. 25 sub-skills
+Comprehensive SEO analysis skill for Google Gemini CLI / Google Antigravity. 25 sub-skills
 (21 core + 1 orchestrator + 1 framework integration + 2 extension mirrors) and
 18 specialist rules cover technical SEO, content quality, schema markup,
 sitemaps, Core Web Vitals, AI search optimization (GEO), local SEO, maps
@@ -9,6 +9,10 @@ backlinks, and international SEO.
 
 Ported from [claude-seo](https://github.com/AgriciDaniel/claude-seo). The
 Python execution engine (55 scripts) is platform-agnostic Python 3.10+.
+
+Keywords: `seo`, `ai-seo`, `antigravity`, `gemini`, `gemini-cli`,
+`technical-seo`, `local-seo`, `schema`, `core-web-vitals`, `backlinks`,
+`geo`, `ai-search`.
 
 ## Quick Start
 

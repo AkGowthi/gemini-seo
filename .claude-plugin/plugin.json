@@ -3,12 +3,12 @@
   "version": "2.3.1",
   "description": "Comprehensive SEO analysis plugin for Google Gemini / Antigravity. 25 sub-skills (21 core + 1 orchestrator + 1 framework + 2 extension mirrors) and 18 sub-agents cover technical SEO, content quality, schema, sitemaps, Core Web Vitals, local SEO, backlinks, AI/GEO, ecommerce, hreflang, SXO, clustering, drift monitoring, and Google APIs. Includes optional MCP extensions, SPA-aware rendering, portability, and hardened SSRF/DNS-rebinding safe fetchers.",
   "author": {
-    "name": "AgriciDaniel",
-    "url": "https://github.com/AgriciDaniel"
+    "name": "AkGowthi",
+    "url": "https://github.com/AkGowthi"
   },
   "license": "MIT",
-  "homepage": "https://gemini-seo.md",
-  "repository": "https://github.com/AgriciDaniel/gemini-seo",
+  "homepage": "https://github.com/AkGowthi/gemini-seo",
+  "repository": "https://github.com/AkGowthi/gemini-seo",
   "keywords": [
     "seo",
     "technical-seo",
@@ -19,6 +19,11 @@
     "local-seo",
     "geo",
     "ai-search",
+    "antigravity",
+    "gemini",
+    "gemini-seo",
+    "gemini-cli",
+    "ai-seo",
     "sitemap",
     "image-optimization",
     "image-serp",
